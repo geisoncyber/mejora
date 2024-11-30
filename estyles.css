@@ -347,11 +347,10 @@ header {
 }
 
 .doctors__card {
-  text-align: center;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  cursor: pointer;
-  overflow: hidden;
+ display: inline-block;
+ width: 30%;
+ margin: 10px;
+ vertical-align: top;
 }
 
 .doctors__card__image {
